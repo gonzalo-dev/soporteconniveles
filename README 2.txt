@@ -4,3 +4,7 @@ Cada NivelDeSoporte modela una cola de atencion.
 A su vez NivelDeSoporteEncadenado representa un nivel de soporte y conoce la de nivel superior a quien derivar en caso de excepcion.
 Finalmente el empleado conoce su cargo y puede manisfestarlo al presentarse al cliente.
 
+-PROXIMOS PASOS-
+1) hacer unit tests por cada clase pero definiendo los estados esperados con assertions
+2) crear controllers para definir API Rest sobre el GestorDeSoporte
+3) crear testing de integracion con SpringBoot sobre la API Rest
