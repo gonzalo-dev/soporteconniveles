@@ -26,7 +26,7 @@ public class Empleado {
     }
 
     public String getCargo() {
-        return nivelDeSoporteEnum.name();
+        return nivelDeSoporteEnum.getCargo();
     }
 
     public NivelDeSoporteEnum getNivelDeSoporteEnum() {

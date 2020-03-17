@@ -13,7 +13,7 @@ import org.springframework.core.env.Environment;
 public class ConfiguracionSoporte {
 
     @Bean
-    public GestorDeSoporte getGestorDeSoporte(Environment env) {
+    public GestorDeSoporte gestorDeSoporte(Environment env) {
         
         Integer capacidad1Nivel = Integer.valueOf(env.getRequiredProperty(
                 "capacidad.1nivel"));
