@@ -10,6 +10,9 @@ public class Empleado {
 
     private static Long contadorIds = 0L;
     
+    private static final String SALUDO_MSJ =
+            "Hola, soy el %s en que puedo ayudarle.";
+    
     private final Long id;
     private final NivelDeSoporteEnum nivelDeSoporteEnum;
     
@@ -57,6 +60,10 @@ public class Empleado {
             return false;
         }
         return true;
+    }
+    
+    public String saludar(){
+        return String.format(SALUDO_MSJ, this.getCargo());
     }
     
 }
