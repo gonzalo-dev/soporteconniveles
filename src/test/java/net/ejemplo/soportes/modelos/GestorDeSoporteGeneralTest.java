@@ -1,4 +1,4 @@
-package net.ejemplo.Soporte.modelos;
+package net.ejemplo.soportes.modelos;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,14 +8,12 @@ import net.ejemplo.soporte.SoporteApplication;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  *
  * @author gonzalo.trejo
  */
-@SpringBootTest
-public class GestorDeSoporteTest {
+public class GestorDeSoporteGeneralTest {
 
     private static net.ejemplo.soporte.modelos.GestorDeSoporte gestorDeSoporte;
     private static Logger logger = Logger.getLogger(SoporteApplication.class
